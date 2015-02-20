@@ -1,0 +1,1 @@
+You need Ip List For Proxy-Tool.sh

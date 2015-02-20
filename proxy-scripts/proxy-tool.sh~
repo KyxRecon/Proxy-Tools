@@ -1,0 +1,21 @@
+#!/bin/bash
+# Parallel Proxy Scraper & Checker Tool - By Alexcerus HR
+#Demo : 
+clear
+cat <<EOF
+
+########################################################
+#       Parallel Proxy Scraper & Checker Tool          #
+########################################################
+
+EOF
+echo '[+] CTRL+C has been detected!.....starting process ' | grep --color '.....starting process'
+cd `dirname $0`
+python proxy-crawler.py
+python proxy-checker.py ip1.txt ip2.txt
+echo "RESULTS FROM PROXY SCRAPING" | grep --color 'RESULTS FROM PROXY SCRAPING'
+echo "Hope you have enough to actually hide your ass now :p" | grep --color 'Hope you have enough to actually hide your ass now :p'
+#
+#
+#
+#
